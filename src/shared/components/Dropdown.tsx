@@ -47,7 +47,7 @@ export function Dropdown<T extends string = string>({
         aria-expanded={open}
         aria-controls={open ? menuId : undefined}
         className={cn(
-          "flex w-full items-center justify-between gap-2 rounded-xl border bg-white px-4 py-3 text-sm text-third outline-none transition focus:ring-2 focus:ring-secondary/30 disabled:cursor-not-allowed disabled:opacity-50",
+          "flex w-full items-center justify-between gap-2 rounded-xl border bg-white px-4 py-3 text-base text-third outline-none transition focus:ring-2 focus:ring-secondary/30 disabled:cursor-not-allowed disabled:opacity-50",
           invalid ? "border-red-500" : "border-secondary/30 focus:border-secondary",
           className,
         )}

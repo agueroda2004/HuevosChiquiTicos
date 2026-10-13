@@ -41,7 +41,7 @@ function toNullable(value: string): string | null {
 }
 
 const inputClassName =
-  "w-full rounded-xl border border-secondary/30 bg-white px-4 py-3 text-sm text-third outline-none transition placeholder:text-secondary/60 focus:border-secondary focus:ring-2 focus:ring-secondary/30";
+  "w-full rounded-xl border border-secondary/30 bg-white px-4 py-3 text-base text-third outline-none transition placeholder:text-secondary/60 focus:border-secondary focus:ring-2 focus:ring-secondary/30";
 
 export function ProductForm(props: ProductFormProps) {
   const [name, setName] = useState(props.mode === "edit" ? props.initialValues.name : "");

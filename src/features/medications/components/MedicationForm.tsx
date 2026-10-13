@@ -71,7 +71,7 @@ export function MedicationForm(props: MedicationFormProps) {
           placeholder="Ej. Oxitetraciclina"
           value={name}
           onChange={(event) => setName(event.target.value)}
-          className="w-full rounded-xl border border-secondary/30 bg-white px-4 py-3 text-sm text-third outline-none transition placeholder:text-secondary/60 focus:border-secondary focus:ring-2 focus:ring-secondary/30"
+          className="w-full rounded-xl border border-secondary/30 bg-white px-4 py-3 text-base text-third outline-none transition placeholder:text-secondary/60 focus:border-secondary focus:ring-2 focus:ring-secondary/30"
         />
         {fieldErrors.name && <p className="text-xs text-red-500">{fieldErrors.name}</p>}
       </div>

@@ -45,7 +45,7 @@ function collectFieldErrors(issues: { path: PropertyKey[]; message: string }[]):
 }
 
 const inputClassName =
-  "w-full rounded-xl border border-secondary/30 bg-white px-4 py-3 text-sm text-third outline-none transition placeholder:text-secondary/60 focus:border-secondary focus:ring-2 focus:ring-secondary/30";
+  "w-full rounded-xl border border-secondary/30 bg-white px-4 py-3 text-base text-third outline-none transition placeholder:text-secondary/60 focus:border-secondary focus:ring-2 focus:ring-secondary/30";
 
 const typeOptions: DropdownOption<DeathType | "">[] = DEATH_TYPE_OPTIONS;
 

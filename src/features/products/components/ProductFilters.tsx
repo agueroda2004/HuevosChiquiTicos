@@ -42,7 +42,7 @@ export function ProductFilters({ value, onChange }: ProductFiltersProps) {
           onChange={(event) => setDraft({ ...draft, search: event.target.value })}
           placeholder="Buscar por nombre"
           aria-label="Buscar por nombre"
-          className="w-full rounded-xl border border-secondary/30 bg-white py-3 pl-10 pr-4 text-sm text-third outline-none transition placeholder:text-secondary/60 focus:border-secondary focus:ring-2 focus:ring-secondary/30"
+          className="w-full rounded-xl border border-secondary/30 bg-white py-3 pl-10 pr-4 text-base text-third outline-none transition placeholder:text-secondary/60 focus:border-secondary focus:ring-2 focus:ring-secondary/30"
         />
       </div>
 
